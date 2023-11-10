@@ -1,0 +1,32 @@
+:root{
+    background-color: rgb(40,40,33);
+}
+@keyframes colorChanges{
+    0% {color: rgb(255,255,0);}
+    30% {color: rgb(255,255,0);}
+    50% {color: rgb(0,255,0);}
+    70% {color: rgb(0,255,0);}
+    90% {color: rgb(255,0,0);}
+    100% {color: rgb(255,0,0);}
+}
+.w{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    color: rgb(255,255,0);
+    animation-name: colorChanges;
+    animation-duration: 2s;
+    animation-delay: 0ms;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+}
+
+.illusion{
+    display: flex;
+    position: relative;
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    margin-top: 20px;
+    background: radial-gradient(rgb(0, 0, 0) 28%,rgb(229, 20, 20) 30%,rgb(255,255,255) 32%,rgb(50,0,50) 33%,rgb(0,0,255) 34%,rgb(255, 82, 255) 35%,rgb(221, 255, 0) 36%,rgb(123, 5, 5)55%,rgb(40, 40, 33) 70%);
+}

@@ -17,7 +17,14 @@
     const useragent = navigator.userAgent;
     const isMobile = /Android|Mobil|iOS|iPad/i.test(useragent);
 
-    isMobile = isMobile ? nx.style.fontSize = '10px' : nx.style.fontSize = '30px'
+    if (isMobile){
+      nx.style.fontSize = '16px';
+      nx.style.marginLeft = '20%';
+      nx.style.width = '1vw';
+    } else {
+      nx.style.fontSize = '30px';
+      nx.style.marginLeft = '20%';
+    }
   </script>
 </body>
 

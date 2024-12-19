@@ -2,13 +2,15 @@
   background-color: rgb(50,50,50);
 }
 
+body{
+  display: block;
+}
+
 #atvirukas{
-  display: flex;
   background-color: red;
   margin: auto;
   border: solid 1px white;
-  width: 670px;
-  height: 670px;
+  block-size: 98.3vh;
   background-image: url('img/christmas-decorations-1814927_1920.png');
   background-repeat: no-repeat;
   background-size: cover;
@@ -20,20 +22,8 @@
   margin-top: 20%;
   margin-left: 10%;
   font-family: cursive;
-  font-size: 20px;
+  font-size: 30px;
   line-height: 1.5;
-  width: 300px;
+  width: 50vh;
   text-align: left;
-  justify-content: center;
-}
-
-#dovana{
-  position: relative;
-  width: 200px;
-  height: 200px;
-  margin-top: auto;
-}
-
-#dovana:hover{
-  cursor: pointer;
 }
